@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BookNest | Discover Your Next Read</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">BookNest<span>.</span></h1>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#explore">Explore</a>
+                <a href="#favorites">Favorites</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <p class="tagline">YOUR NEXT CHAPTER STARTS HERE</p>
+
+            <h2>Find your next<br>favorite book.</h2>
+
+            <p class="hero-text">
+                Explore new worlds, discover ideas
+                and find books that inspire you.
+            </p>
+
+            <a href="#explore" class="explore-btn">
+                Explore Books →
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- Search Section -->
+    <main>
+
+        <section class="search-section" id="explore">
+
+            <h2>Explore the Library</h2>
+
+            <p>Discover something worth reading.</p>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search by book title or author..."
+            >
+
+        </section>
+
+
+        <!-- Categories -->
+        <section class="categories">
+
+            <h2>Browse Categories</h2>
+
+            <div class="category-buttons">
+
+                <button class="category-btn active" data-category="All">
+                    All Books
+                </button>
+
+                <button class="category-btn" data-category="Fiction">
+                    Fiction
+                </button>
+
+                <button class="category-btn" data-category="Science">
+                    Science
+                </button>
+
+                <button class="category-btn" data-category="Psychology">
+                    Psychology
+                </button>
+
+                <button class="category-btn" data-category="Technology">
+                    Technology
+                </button>
+
+                <button class="category-btn" data-category="Business">
+                    Business
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- Book Library -->
+        <section class="library">
+
+            <div class="section-heading">
+                <h2>Discover Books</h2>
+                <span id="bookCount">0 books</span>
+            </div>
+
+            <div class="book-grid" id="bookGrid">
+
+                <!-- Books will be added using JavaScript -->
+
+            </div>
+
+            <p id="noResults" hidden>
+                No books found. Try another search!
+            </p>
+
+        </section>
+
+
+        <!-- Favorites -->
+        <section class="favorites" id="favorites">
+
+            <h2>Your Favorite Books ♡</h2>
+
+            <div class="book-grid" id="favoriteGrid">
+
+                <!-- Favorite books will appear here -->
+
+            </div>
+
+            <p id="emptyFavorites">
+                You haven't saved any favorites yet.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h2>BookNest.</h2>
+
+        <p>Made for curious minds and endless readers.</p>
+
+        <p>© 2026 BookNest. All rights reserved.</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
