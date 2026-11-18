@@ -1,2 +1,5 @@
-# BookNest
-A book discovery and recommendation website built using HTML, CSS, and JavaScript. Explore books, search by title or author, browse categories, and save your favourites.
+BookNest 📚
+
+A book discovery and recommendation website.
+
+🌐 "Visit BookNest – Live Demo" (https://cbunnyy.github.io/BookNest/)
